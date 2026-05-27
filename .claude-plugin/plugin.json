@@ -1,12 +1,38 @@
 {
   "name": "peep-skills",
-  "description": "Production-grade Claude Code skills for frontend craft, design systems, and UI engineering.",
-  "version": "1.0.0",
+  "description": "Production-grade Claude Code skills: frontend craft, UI engineering, and caveman communication mode.",
+  "version": "1.1.0",
   "author": {
     "name": "Abel Odorico",
     "url": "https://github.com/Abel-Odorico"
   },
   "homepage": "https://github.com/Abel-Odorico/peep-skills",
   "repository": "https://github.com/Abel-Odorico/peep-skills",
-  "skills": "./skills"
+  "skills": "./skills",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/caveman-activate.js\"",
+            "timeout": 5,
+            "statusMessage": "Loading caveman mode..."
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/caveman-mode-tracker.js\"",
+            "timeout": 5,
+            "statusMessage": "Tracking caveman mode..."
+          }
+        ]
+      }
+    ]
+  }
 }
