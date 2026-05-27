@@ -1,0 +1,12 @@
+{
+  "name": "frontend-craft",
+  "description": "Build memorable, production-grade frontend interfaces. Anti-AI-slop. Bold aesthetics + rigorous craft systems.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Abel Odorico",
+    "url": "https://github.com/Abel-Odorico"
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills"
+}

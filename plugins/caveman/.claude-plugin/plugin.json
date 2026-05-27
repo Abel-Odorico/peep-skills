@@ -1,13 +1,11 @@
 {
-  "name": "peep-skills",
-  "description": "Production-grade Claude Code skills: frontend craft, UI engineering, and caveman communication mode.",
-  "version": "1.1.0",
+  "name": "caveman",
+  "description": "Ultra-compressed communication mode. Cuts ~75% of tokens while keeping full technical accuracy by speaking like a caveman.",
+  "version": "1.0.0",
   "author": {
-    "name": "Abel Odorico",
-    "url": "https://github.com/Abel-Odorico"
+    "name": "Julius Brussee",
+    "url": "https://github.com/JuliusBrussee"
   },
-  "homepage": "https://github.com/Abel-Odorico/peep-skills",
-  "repository": "https://github.com/Abel-Odorico/peep-skills",
   "skills": "./skills",
   "hooks": {
     "SessionStart": [
