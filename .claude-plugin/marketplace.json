@@ -1,0 +1,41 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "peep-skills",
+  "description": "Production-grade Claude Code skills: frontend craft, UI engineering, and caveman communication mode.",
+  "owner": {
+    "name": "Abel Odorico",
+    "url": "https://github.com/Abel-Odorico"
+  },
+  "plugins": [
+    {
+      "name": "frontend-craft",
+      "description": "Build memorable, production-grade frontend interfaces. Anti-AI-slop. Bold aesthetics + rigorous craft systems.",
+      "author": {
+        "name": "Abel Odorico"
+      },
+      "category": "design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/frontend-craft",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/Abel-Odorico/peep-skills"
+    },
+    {
+      "name": "caveman",
+      "description": "Ultra-compressed communication mode. Cuts ~75% of tokens while keeping full technical accuracy by speaking like a caveman.",
+      "author": {
+        "name": "Julius Brussee"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/caveman",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/JuliusBrussee/caveman"
+    }
+  ]
+}
