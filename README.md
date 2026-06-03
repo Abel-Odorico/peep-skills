@@ -4,6 +4,8 @@ Claude Code skills for frontend craft and productivity.
 
 ## Install
 
+### Claude Code
+
 ```bash
 # 1. Add marketplace
 claude plugin marketplace add Abel-Odorico/peep-skills
@@ -17,6 +19,16 @@ claude plugin install using-superpowers@peep-skills
 claude plugin install ai-image-generation@peep-skills
 claude plugin install vercel-react-best-practices@peep-skills
 claude plugin install shadcn@peep-skills
+```
+
+### Cursor
+
+This repository also includes project skills under `.cursor/skills/`.
+
+Clone or open this repository in Cursor and the skills are available as project skills:
+
+```text
+.cursor/skills/<skill-name>/SKILL.md
 ```
 
 ## Plugins
