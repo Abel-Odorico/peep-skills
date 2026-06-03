@@ -1,0 +1,12 @@
+{
+  "name": "skill-creator",
+  "description": "Create, modify, evaluate, benchmark, and improve agent skills.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Anthropic",
+    "url": "https://github.com/anthropics/skills"
+  },
+  "homepage": "https://github.com/anthropics/skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills"
+}

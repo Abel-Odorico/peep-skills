@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "peep-skills",
-  "description": "Production-grade Claude Code skills: frontend craft, UI engineering, and caveman communication mode.",
+  "description": "Production-grade Claude Code skills for frontend craft, productivity, skill creation, skill discovery, image generation, and compact communication.",
   "owner": {
     "name": "Abel Odorico",
     "url": "https://github.com/Abel-Odorico"
@@ -36,6 +36,66 @@
         "ref": "main"
       },
       "homepage": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
+      "name": "find-skills",
+      "description": "Discover and install agent skills from the open skills ecosystem.",
+      "author": {
+        "name": "Vercel Labs"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/find-skills",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/vercel-labs/skills"
+    },
+    {
+      "name": "skill-creator",
+      "description": "Create, modify, evaluate, benchmark, and improve agent skills.",
+      "author": {
+        "name": "Anthropic"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/skill-creator",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/anthropics/skills"
+    },
+    {
+      "name": "using-superpowers",
+      "description": "Require skill discovery and invocation before agent responses and actions.",
+      "author": {
+        "name": "Jesse Vincent"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/using-superpowers",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/obra/superpowers"
+    },
+    {
+      "name": "ai-image-generation",
+      "description": "Generate and edit AI images with inference.sh models through the belt CLI.",
+      "author": {
+        "name": "skills-shell"
+      },
+      "category": "creative",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/ai-image-generation",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/skills-shell/skills"
     }
   ]
 }

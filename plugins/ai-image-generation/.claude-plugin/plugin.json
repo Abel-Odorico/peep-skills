@@ -1,0 +1,12 @@
+{
+  "name": "ai-image-generation",
+  "description": "Generate and edit AI images with inference.sh models through the belt CLI.",
+  "version": "1.0.0",
+  "author": {
+    "name": "skills-shell",
+    "url": "https://github.com/skills-shell/skills"
+  },
+  "homepage": "https://github.com/skills-shell/skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills"
+}

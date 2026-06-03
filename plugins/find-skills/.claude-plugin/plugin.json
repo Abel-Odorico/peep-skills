@@ -1,0 +1,12 @@
+{
+  "name": "find-skills",
+  "description": "Discover and install agent skills from the open skills ecosystem.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Vercel Labs",
+    "url": "https://github.com/vercel-labs/skills"
+  },
+  "homepage": "https://github.com/vercel-labs/skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills"
+}
