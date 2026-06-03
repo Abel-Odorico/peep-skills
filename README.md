@@ -15,6 +15,8 @@ claude plugin install find-skills@peep-skills
 claude plugin install skill-creator@peep-skills
 claude plugin install using-superpowers@peep-skills
 claude plugin install ai-image-generation@peep-skills
+claude plugin install vercel-react-best-practices@peep-skills
+claude plugin install shadcn@peep-skills
 ```
 
 ## Plugins
@@ -78,3 +80,19 @@ Require skill discovery and invocation before agent responses and actions.
 Generate and edit AI images with inference.sh models through the belt CLI.
 
 > Originally by [skills-shell](https://github.com/skills-shell/skills).
+
+---
+
+### vercel-react-best-practices
+
+React and Next.js performance optimization guidelines from Vercel Engineering.
+
+> Originally by [Vercel Labs](https://github.com/vercel-labs/agent-skills).
+
+---
+
+### shadcn
+
+Manage shadcn/ui components and projects: adding, searching, debugging, styling, and composing UI.
+
+> Originally by [shadcn](https://github.com/shadcn/ui).

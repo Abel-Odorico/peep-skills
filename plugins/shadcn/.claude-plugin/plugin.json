@@ -1,0 +1,12 @@
+{
+  "name": "shadcn",
+  "description": "Manage shadcn/ui components and projects: adding, searching, debugging, styling, and composing UI.",
+  "version": "1.0.0",
+  "author": {
+    "name": "shadcn",
+    "url": "https://github.com/shadcn/ui"
+  },
+  "homepage": "https://github.com/shadcn/ui",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills"
+}

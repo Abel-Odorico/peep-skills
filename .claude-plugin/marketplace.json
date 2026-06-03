@@ -96,6 +96,36 @@
         "ref": "main"
       },
       "homepage": "https://github.com/skills-shell/skills"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering.",
+      "author": {
+        "name": "Vercel"
+      },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/vercel-react-best-practices",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/vercel-labs/agent-skills"
+    },
+    {
+      "name": "shadcn",
+      "description": "Manage shadcn/ui components and projects: adding, searching, debugging, styling, and composing UI.",
+      "author": {
+        "name": "shadcn"
+      },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/shadcn",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/shadcn/ui"
     }
   ]
 }
