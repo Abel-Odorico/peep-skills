@@ -1,0 +1,12 @@
+{
+  "name": "analytics-craft",
+  "description": "Design and implement gerencial analytics panels — retention, cohort heatmap, health banners, WoW metrics. Turns raw data into executive insight. Anti-chart-soup. Use when building admin analytics or any metrics dashboard.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Abel Odorico",
+    "url": "https://github.com/Abel-Odorico"
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills"
+}

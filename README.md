@@ -1,6 +1,6 @@
 # peep-skills
 
-Claude Code skills for frontend craft and productivity.
+Claude Code skills for frontend craft, analytics, and productivity.
 
 ## Install
 
@@ -12,6 +12,8 @@ claude plugin marketplace add Abel-Odorico/peep-skills
 
 # 2. Install plugins
 claude plugin install frontend-craft@peep-skills
+claude plugin install analytics-craft@peep-skills
+claude plugin install web-push@peep-skills
 claude plugin install caveman@peep-skills
 claude plugin install find-skills@peep-skills
 claude plugin install skill-creator@peep-skills
@@ -108,3 +110,27 @@ React and Next.js performance optimization guidelines from Vercel Engineering.
 Manage shadcn/ui components and projects: adding, searching, debugging, styling, and composing UI.
 
 > Originally by [shadcn](https://github.com/shadcn/ui).
+
+---
+
+### analytics-craft
+
+Design and implement gerencial analytics panels — retention metrics, cohort heatmap, health banners, WoW (week-over-week) retention, new vs returning users.
+
+Turns raw data into executive insight. Anti-chart-soup: fewer charts, more decisions.
+
+**Pattern:** Health banner first (SAUDÁVEL/ATENÇÃO/CRÍTICO) → stacked AreaChart (growth) → colored BarChart (retention trend) → cohort heatmap with HSL gradient.
+
+**Backend:** FastAPI/Express/Django patterns for `/retention` and `/cohort` endpoints with PostgreSQL `date_trunc('week', ...)`.
+
+**Commands:** `/analytics-craft`
+
+---
+
+### web-push
+
+Implement Web Push notifications (VAPID) in any PWA — backend subscription storage, per-notification-type URL/tag routing, service worker push handler, and the common gotchas tutorials skip.
+
+**Covers:** tag collision fix, expired subscription cleanup (410), per-type routing config dict, iOS limitations, `renotify`, SW cache versioning.
+
+**Commands:** `/web-push`
