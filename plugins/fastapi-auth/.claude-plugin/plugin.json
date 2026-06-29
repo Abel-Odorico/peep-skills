@@ -1,0 +1,12 @@
+{
+  "name": "fastapi-auth",
+  "description": "Complete auth system for FastAPI: JWT + bcrypt login/register, forgot/reset-password email flow (antisnoop 202, 60min token, RFC headers), rate limiting, Alembic migrations alongside legacy DDL, and the gotchas that cause prod incidents.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Abel Odorico",
+    "url": "https://github.com/Abel-Odorico"
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills"
+}

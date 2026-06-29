@@ -14,6 +14,10 @@ claude plugin marketplace add Abel-Odorico/peep-skills
 claude plugin install frontend-craft@peep-skills
 claude plugin install analytics-craft@peep-skills
 claude plugin install web-push@peep-skills
+claude plugin install telegram-admin-bot@peep-skills
+claude plugin install multi-provider-ai@peep-skills
+claude plugin install pwa-craft@peep-skills
+claude plugin install fastapi-auth@peep-skills
 claude plugin install caveman@peep-skills
 claude plugin install find-skills@peep-skills
 claude plugin install skill-creator@peep-skills
@@ -134,3 +138,43 @@ Implement Web Push notifications (VAPID) in any PWA — backend subscription sto
 **Covers:** tag collision fix, expired subscription cleanup (410), per-type routing config dict, iOS limitations, `renotify`, SW cache versioning.
 
 **Commands:** `/web-push`
+
+---
+
+### telegram-admin-bot
+
+Wire up a Telegram bot for SaaS admin: daily reports, interactive webhook menu, new-user notifications, broadcast messages.
+
+**Covers:** webhook security (secret token + allowlist), HTML parse_mode (never MarkdownV2), `html.escape()` for dynamic values, inline keyboard menus with `editMessageText`, timezone-aware daily report loop (BRT), background task notifications, and 6 gotchas including the silent MarkdownV2 failure mode.
+
+**Commands:** `/telegram-admin-bot`
+
+---
+
+### multi-provider-ai
+
+Route AI requests across OpenRouter and Google Gemini with automatic fallback. Config in DB — no redeploy on key change.
+
+**Covers:** `_get_provider_chain()` pattern, OpenRouter REST + Gemini REST, forced provider order for critical flows, JSON output extraction (regex fallback for Gemini), background task `db.rollback()` safety, free model reference (2026-06), and gotchas (silent 429, `generationConfig` nesting, token truncation).
+
+**Commands:** `/multi-provider-ai`
+
+---
+
+### pwa-craft
+
+Ship a production PWA: cache versioning, network-first API + cache-first assets, offline fallback, iOS safe area, install prompt.
+
+**Covers:** SW registration in `main.jsx` (not `App.jsx`), cache version bump pattern, `clients.claim()` only (never `w.navigate()`), `useInstallPrompt` hook for Android + iOS, `viewport-fit=cover` for safe area, `manifest.json` with screenshots, offline.html pre-cache, and 7 gotchas including the `skipWaiting` + navigate reload loop.
+
+**Commands:** `/pwa-craft`
+
+---
+
+### fastapi-auth
+
+Complete auth for FastAPI: JWT + bcrypt, forgot/reset password with email, rate limiting, Alembic + legacy DDL migration path.
+
+**Covers:** `OAuth2PasswordBearer`, `python-multipart` requirement, `ExpiredSignatureError` before `JWTError`, `_utcnow()` helper (Python 3.12+), antisnoop 202 forgot-password, RFC email headers for Gmail delivery, STARTTLS on 587, token delete-before-create race safety, bcrypt rounds in tests, Alembic + legacy DDL coexistence.
+
+**Commands:** `/fastapi-auth`

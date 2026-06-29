@@ -1,0 +1,12 @@
+{
+  "name": "telegram-admin-bot",
+  "description": "Wire up a Telegram bot for SaaS admin: daily reports, interactive webhook menu, new-user notifications, broadcast messages. Covers webhook security (secret token + allowlist), HTML parse_mode (never MarkdownV2), html.escape() for dynamic values, inline keyboard menus with editMessageText, and the common breakage points.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Abel Odorico",
+    "url": "https://github.com/Abel-Odorico"
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills"
+}

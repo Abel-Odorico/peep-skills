@@ -1,0 +1,12 @@
+{
+  "name": "pwa-craft",
+  "description": "Ship a production PWA: service worker with cache versioning, network-first API + cache-first assets, offline fallback page, iOS safe-area support, install prompt (beforeinstallprompt + iOS detection), and the gotchas that break PWAs silently.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Abel Odorico",
+    "url": "https://github.com/Abel-Odorico"
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills"
+}
