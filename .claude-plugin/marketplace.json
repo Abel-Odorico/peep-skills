@@ -233,6 +233,21 @@
       "homepage": "https://github.com/Abel-Odorico/peep-skills"
     },
     {
+      "name": "security-hardening-loop",
+      "description": "Loop autônomo de hardening: escaneia e corrige vulnerabilidades uma a uma, com baseline operacional, check pós-fix, rollback automático via git e estado retomável. Complemento do security-review.",
+      "author": {
+        "name": "Abel Odorico"
+      },
+      "category": "security",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/security-hardening-loop",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/Abel-Odorico/peep-skills"
+    },
+    {
       "name": "security-review",
       "description": "AI-powered security scanner that reasons like a researcher: data flow tracing, dependency CVEs, secrets, crypto and access control, with severity-rated findings and proposed patches.",
       "author": {

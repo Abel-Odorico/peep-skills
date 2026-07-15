@@ -1,0 +1,12 @@
+{
+  "name": "security-hardening-loop",
+  "description": "Loop autônomo de hardening: escaneia vulnerabilidades (metodologia security-review) e as corrige uma a uma com check operacional pós-fix, rollback automático via git, estado retomável e paradas nomeadas. Complemento do security-review: um relata, o outro conserta.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Abel Odorico",
+    "url": "https://github.com/Abel-Odorico"
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills"
+}

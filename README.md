@@ -32,6 +32,7 @@ claude plugin install shadcn@peep-skills
 claude plugin install forge-agent-loop@peep-skills
 claude plugin install sandeco-loop@peep-skills
 claude plugin install security-review@peep-skills
+claude plugin install security-hardening-loop@peep-skills
 ```
 
 ### Cursor
@@ -161,6 +162,20 @@ AI-powered security scanner that reasons about the codebase like a human researc
 > Originally by [GitHub](https://github.com/github/awesome-copilot) — awesome-copilot.
 
 **Commands:** `/security-review` · `/security-review <path>`
+
+---
+
+### security-hardening-loop
+
+Loop autônomo de hardening: onde o security-review **relata**, este **conserta**. Escaneia com a mesma metodologia, prioriza por severidade e corrige um achado por iteração — cada fix só é aceito se todos os checks operacionais (testes, health endpoint, status de serviço) continuarem ≥ baseline; senão rollback automático via git.
+
+**Núcleo (princípios sandeco-loop):** baseline operacional antes de tocar em código → fila em `.security-loop/state.json` (retomável) → PICK → FIX → CHECK → COMMIT ou ROLLBACK → paradas nomeadas (sucesso, sem-progresso, check-quebrado, esgotamento, bloqueio).
+
+**Guardrails:** um achado por commit, nunca em working tree suja, nunca push/deploy/restart de produção sem pedido, rotação de secrets sempre tarefa humana, major bumps viram bloqueio, anti-autoengano (proibido afrouxar check para o fix passar).
+
+**References:** protocolo do loop + schema de estado, checks de operação por stack (PHP, Node, Python, Docker, systemd), playbooks de fix mínimo por categoria (SQLi, XSS, secrets, IDOR, JWT, crypto, deps).
+
+**Commands:** `/security-hardening-loop` · `/security-hardening-loop <path>`
 
 ---
 

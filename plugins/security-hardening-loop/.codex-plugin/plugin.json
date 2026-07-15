@@ -1,0 +1,25 @@
+{
+  "name": "security-hardening-loop",
+  "version": "1.0.0",
+  "description": "Escaneia e CORRIGE vulnerabilidades uma a uma, com check operacional pós-fix e rollback automático.",
+  "author": {
+    "name": "Abel Odorico",
+    "url": "https://github.com/Abel-Odorico"
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Security Hardening Loop",
+    "shortDescription": "Busca e corrige fragilidades mantendo o sistema operacional.",
+    "longDescription": "Loop verificável de hardening: baseline operacional (testes, health checks, serviços), scan na metodologia security-review, fila priorizada por severidade e correção iterativa — cada fix só é aceito com todos os checks ≥ baseline, senão rollback automático via git. Estado retomável em disco, guardrails contra autoengano e paradas nomeadas (sucesso, sem-progresso, check-quebrado, esgotamento, bloqueio).",
+    "developerName": "Abel Odorico",
+    "category": "Security",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "Roda o loop de hardening neste projeto: corrige CRITICAL e HIGH mantendo tudo no ar.",
+      "Escaneia e corrige as vulnerabilidades deste diretório, uma por vez, com rollback se quebrar.",
+      "Retoma o loop de hardening de onde parou."
+    ]
+  }
+}
