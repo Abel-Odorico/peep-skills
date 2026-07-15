@@ -1,0 +1,12 @@
+{
+  "name": "sandeco-loop",
+  "description": "Forja loops de agente verificáveis, retomáveis e portáteis entre Codex, Claude Code e OpenCode — com check externo, estado em disco, guardrails e parada nomeada. Inspirado na Sandeco Loop original, evoluído para o ecossistema Peep.",
+  "version": "2.0.0",
+  "author": {
+    "name": "Abel Odorico",
+    "url": "https://github.com/Abel-Odorico"
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills"
+}

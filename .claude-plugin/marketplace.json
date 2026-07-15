@@ -126,6 +126,36 @@
         "ref": "main"
       },
       "homepage": "https://github.com/shadcn/ui"
+    },
+    {
+      "name": "forge-agent-loop",
+      "description": "Projeta loops de agentes verificáveis, retomáveis e portáteis entre Codex, Claude Code e OpenCode.",
+      "author": {
+        "name": "Abel Odorico"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/forge-agent-loop",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/Abel-Odorico/peep-skills"
+    },
+    {
+      "name": "sandeco-loop",
+      "description": "Forja loops de agente com check externo, estado retomável, guardrails reais, auto-sugestão e adaptadores para Codex, Claude Code e OpenCode.",
+      "author": {
+        "name": "Abel Odorico"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/sandeco-loop",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/Abel-Odorico/peep-skills"
     }
   ]
 }

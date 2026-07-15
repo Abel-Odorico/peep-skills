@@ -1,0 +1,20 @@
+{
+  "name": "peep-skills",
+  "interface": {
+    "displayName": "Peep Skills"
+  },
+  "plugins": [
+    {
+      "name": "forge-agent-loop",
+      "source": {
+        "source": "local",
+        "path": "./plugins/forge-agent-loop"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

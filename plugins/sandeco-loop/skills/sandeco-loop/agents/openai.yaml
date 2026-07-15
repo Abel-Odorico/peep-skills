@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sandeco Loop"
+  short_description: "Forja loops de agente verificáveis e portáteis"
+  default_prompt: "Use $sandeco-loop para entrevistar, especificar e endurecer um loop para esta tarefa iterativa com check externo, estado em disco e adaptadores multi-harness."

@@ -1,8 +1,12 @@
 # peep-skills
 
-Claude Code skills for frontend craft, analytics, and productivity.
+Portable agent skills for Codex, Claude Code, OpenCode, frontend craft, analytics, and productivity.
 
 ## Install
+
+### Codex
+
+O repositório inclui um catálogo Codex em `.agents/plugins/marketplace.json` e manifestos `.codex-plugin/` nos plugins compatíveis.
 
 ### Claude Code
 
@@ -25,6 +29,8 @@ claude plugin install using-superpowers@peep-skills
 claude plugin install ai-image-generation@peep-skills
 claude plugin install vercel-react-best-practices@peep-skills
 claude plugin install shadcn@peep-skills
+claude plugin install forge-agent-loop@peep-skills
+claude plugin install sandeco-loop@peep-skills
 ```
 
 ### Cursor
@@ -38,6 +44,30 @@ Clone or open this repository in Cursor and the skills are available as project 
 ```
 
 ## Plugins
+
+### forge-agent-loop
+
+Projeta loops de agentes com checks externos, estado retomável, guardrails e estados de parada inequívocos. O mesmo núcleo gera adaptadores para Codex, Claude Code e OpenCode sem duplicar a especificação.
+
+Inspirada conceitualmente na [Sandeco Loop](https://github.com/sandeco/prompts/tree/main/sandeco-loop), com implementação própria e desacoplada de harness.
+
+**Fluxo:** triar → especificar → endurecer → instalar adaptadores opcionais → validar → executar somente sob pedido explícito.
+
+**Invocação:** `$forge-agent-loop` no Codex · `/forge-agent-loop:forge-agent-loop` no Claude Code · skill `forge-agent-loop` no OpenCode.
+
+---
+
+### sandeco-loop
+
+Forja loops de agente com check externo, estado retomável, guardrails reais e adaptadores para Codex, Claude Code e OpenCode. Evolução da Sandeco Loop original com auto-sugestão proativa, quickstart templates e scripts de validação.
+
+**Diferenças do forge-agent-loop:** auto-detecção de oportunidade de loop, quickstart (4 templates prontos), script `forge_loop.py` com 5 subcomandos (init, validate, install-adapters, quickstart, status), dashboard de saúde do loop, integração Cursor, português-BR.
+
+**Fluxo:** triar → descobrir contexto → entrevistar → endurecer → especificar → instalar adaptadores → validar → executar só sob pedido.
+
+**Invocação:** `/sandeco-loop` no Claude · skill `sandeco-loop` no OpenCode · `$sandeco-loop` no Codex.
+
+---
 
 ### frontend-craft
 

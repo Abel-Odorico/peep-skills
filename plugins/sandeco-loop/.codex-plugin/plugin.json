@@ -1,0 +1,25 @@
+{
+  "name": "sandeco-loop",
+  "version": "2.0.0",
+  "description": "Forja loops de agente verificáveis e portáteis entre Codex, Claude Code e OpenCode.",
+  "author": {
+    "name": "Abel Odorico",
+    "url": "https://github.com/Abel-Odorico"
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Sandeco Loop",
+    "shortDescription": "Forja loops verificáveis para qualquer harness.",
+    "longDescription": "Entrevista, especifica, endurece e instala loops de agente com checks externos, estado retomável, guardrails, paradas nomeadas e adaptadores para Codex, Claude Code e OpenCode.",
+    "developerName": "Abel Odorico",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "Entreviste e forje um loop para esta tarefa iterativa.",
+      "Endureça este workflow contra autoengano e reward hacking.",
+      "Instale adaptadores para Codex, Claude e OpenCode a partir desta especificação."
+    ]
+  }
+}
