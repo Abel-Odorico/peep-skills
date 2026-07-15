@@ -1,0 +1,26 @@
+{
+  "name": "skill-creator",
+  "version": "1.0.0",
+  "description": "Create, modify, evaluate, benchmark, and improve agent skills.",
+  "author": {
+    "name": "Anthropic",
+    "url": "https://github.com/anthropics/skills"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Skill Creator",
+    "shortDescription": "Create, modify, evaluate, benchmark, and improve agent skills.",
+    "longDescription": "Create, modify, evaluate, benchmark, and improve agent skills.",
+    "developerName": "Anthropic",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Skill Creator neste projeto."
+    ]
+  },
+  "homepage": "https://github.com/anthropics/skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills"
+}

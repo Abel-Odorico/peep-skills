@@ -1,0 +1,26 @@
+{
+  "name": "using-superpowers",
+  "version": "1.0.0",
+  "description": "Require skill discovery and invocation before agent responses and actions.",
+  "author": {
+    "name": "Jesse Vincent",
+    "url": "https://github.com/obra"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Using Superpowers",
+    "shortDescription": "Require skill discovery and invocation before agent responses and actions.",
+    "longDescription": "Require skill discovery and invocation before agent responses and actions.",
+    "developerName": "Jesse Vincent",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Using Superpowers neste projeto."
+    ]
+  },
+  "homepage": "https://github.com/obra/superpowers",
+  "repository": "https://github.com/Abel-Odorico/peep-skills"
+}

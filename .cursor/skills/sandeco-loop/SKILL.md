@@ -2,23 +2,13 @@
 name: sandeco-loop
 description: >
   Entrevista, especifica, endurece e instala loops de agente com checks externos,
-  estado retomável em disco, guardrails reais, estados de parada nomeados e
-  adaptadores automáticos para Codex, Claude Code e OpenCode. A habilidade central
-  não é o prompt do loop, é o CHECK que decide se o trabalho terminou — e a
-  evidência que separa sucesso real de autoengano.
-  Detecta automaticamente quando uma tarefa do usuário é candidata a loop e sugere
-  a especificação antes mesmo de ser chamada.
-  Use SEMPRE que o usuário disser: "/sandeco-loop", "forja um loop",
-  "especifica um loop", "cria um loop autônomo", "endurece esse loop",
-  "quero automatizar essa tarefa iterativa", "loop que roda sozinho até",
-  "loop de cobertura/testes/refatoração", "transforma isso num loop",
-  "instala adaptadores para esse loop".
-  Também use QUANDO DETECTAR o padrão: o usuário descreve uma tarefa repetitiva
-  com verificação (ex: "preciso rodar os testes até passar", "tem que revisar
-  todos os arquivos até ficar bom", "quero que execute isso N vezes melhorando
-  a cada vez"). Nesse caso, sugira proativamente.
-  NÃO use para tarefas agendadas cujo resultado não altera a próxima ação, nem
-  para gerar slides Mira, nem para executar o loop sem pedido explícito.
+  estado retomável, guardrails, estados de parada e adaptadores para Codex, Claude
+  Code e OpenCode. Use quando o usuário pedir para forjar, especificar, criar ou
+  endurecer um loop autônomo; automatizar uma tarefa iterativa; criar loops de
+  cobertura, testes ou refatoração; instalar adaptadores; ou executar repetidamente
+  uma tarefa cujo resultado muda a próxima ação. Sugira proativamente quando houver
+  feedback verificável entre voltas. Não use para tarefas agendadas sem feedback,
+  para slides Mira ou para executar um loop sem pedido explícito.
 ---
 
 # Sandeco Loop — Forja de Loops Verificáveis

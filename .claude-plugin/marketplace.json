@@ -156,6 +156,96 @@
         "ref": "main"
       },
       "homepage": "https://github.com/Abel-Odorico/peep-skills"
+    },
+    {
+      "name": "analytics-craft",
+      "description": "Design and implement gerencial analytics panels — retention, cohort heatmap, health banners, WoW metrics. Turns raw data into executive insight. Anti-chart-soup.",
+      "author": {
+        "name": "Abel Odorico"
+      },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/analytics-craft",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/Abel-Odorico/peep-skills"
+    },
+    {
+      "name": "fastapi-auth",
+      "description": "Complete auth system for FastAPI with JWT, bcrypt, password reset, rate limiting and migrations.",
+      "author": {
+        "name": "Abel Odorico"
+      },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/fastapi-auth",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/Abel-Odorico/peep-skills"
+    },
+    {
+      "name": "multi-provider-ai",
+      "description": "Route AI requests across OpenRouter and Google Gemini with automatic fallback and structured output repair.",
+      "author": {
+        "name": "Abel Odorico"
+      },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/multi-provider-ai",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/Abel-Odorico/peep-skills"
+    },
+    {
+      "name": "pwa-craft",
+      "description": "Ship production PWAs with cache versioning, offline fallback, iOS support and install prompts.",
+      "author": {
+        "name": "Abel Odorico"
+      },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/pwa-craft",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/Abel-Odorico/peep-skills"
+    },
+    {
+      "name": "telegram-admin-bot",
+      "description": "Wire up a secure Telegram bot for SaaS administration, reports, menus, notifications and broadcasts.",
+      "author": {
+        "name": "Abel Odorico"
+      },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/telegram-admin-bot",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/Abel-Odorico/peep-skills"
+    },
+    {
+      "name": "web-push",
+      "description": "Implement Web Push notifications with VAPID, subscription management, routing and service worker integration.",
+      "author": {
+        "name": "Abel Odorico"
+      },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/web-push",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/Abel-Odorico/peep-skills"
     }
   ]
 }

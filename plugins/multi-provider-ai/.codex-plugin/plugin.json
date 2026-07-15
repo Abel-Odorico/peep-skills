@@ -1,0 +1,26 @@
+{
+  "name": "multi-provider-ai",
+  "version": "1.0.0",
+  "description": "Route AI requests across OpenRouter and Google Gemini with automatic fallback. Config stored in DB (no redeploy on key change), per-provider model selection, structured JSON output with repair, token budget per provider. Works with FastAPI, Express, or any Python/Node backend.",
+  "author": {
+    "name": "Abel Odorico",
+    "url": "https://github.com/Abel-Odorico"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Multi Provider AI",
+    "shortDescription": "Route AI requests across OpenRouter and Google Gemini with automatic fallback. Config stored in…",
+    "longDescription": "Route AI requests across OpenRouter and Google Gemini with automatic fallback. Config stored in DB (no redeploy on key change), per-provider model selection, structured JSON output with repair, token budget per provider. Works with FastAPI, Express, or any Python/Node backend.",
+    "developerName": "Abel Odorico",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Multi Provider AI neste projeto."
+    ]
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills"
+}

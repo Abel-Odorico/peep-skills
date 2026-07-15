@@ -1,0 +1,26 @@
+{
+  "name": "web-push",
+  "version": "1.0.0",
+  "description": "Implement Web Push notifications (VAPID) for PWAs — backend subscription management, per-type routing, service worker integration, tag collision fix. Works with FastAPI, Express, Django. Use when adding push notifications to any web app.",
+  "author": {
+    "name": "Abel Odorico",
+    "url": "https://github.com/Abel-Odorico"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Web Push",
+    "shortDescription": "Implement Web Push notifications (VAPID) for PWAs — backend subscription management, per-type r…",
+    "longDescription": "Implement Web Push notifications (VAPID) for PWAs — backend subscription management, per-type routing, service worker integration, tag collision fix. Works with FastAPI, Express, Django. Use when adding push notifications to any web app.",
+    "developerName": "Abel Odorico",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Web Push neste projeto."
+    ]
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills"
+}

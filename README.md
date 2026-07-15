@@ -55,6 +55,8 @@ Inspirada conceitualmente na [Sandeco Loop](https://github.com/sandeco/prompts/t
 
 **Invocação:** `$forge-agent-loop` no Codex · `/forge-agent-loop:forge-agent-loop` no Claude Code · skill `forge-agent-loop` no OpenCode.
 
+> Mantida por histórico/compatibilidade. Para projetos novos use **sandeco-loop** abaixo — mesmo núcleo, mais recursos. Não instale os dois juntos: as descrições de trigger se sobrepõem e podem disparar o plugin errado.
+
 ---
 
 ### sandeco-loop

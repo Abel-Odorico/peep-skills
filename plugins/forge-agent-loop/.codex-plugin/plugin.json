@@ -1,0 +1,25 @@
+{
+  "name": "forge-agent-loop",
+  "version": "1.0.0",
+  "description": "Projeta loops de agentes verificáveis, retomáveis e portáteis entre Codex, Claude Code e OpenCode.",
+  "author": {
+    "name": "Abel Odorico",
+    "url": "https://github.com/Abel-Odorico"
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Forge Agent Loop",
+    "shortDescription": "Loops verificáveis para qualquer harness.",
+    "longDescription": "Forja especificações de loops com checks externos, estado em disco, guardrails e adaptadores para Codex, Claude Code e OpenCode.",
+    "developerName": "Abel Odorico",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "Transforme esta tarefa em um loop verificável.",
+      "Adapte este loop para Codex, Claude e OpenCode.",
+      "Endureça este workflow contra falso sucesso."
+    ]
+  }
+}

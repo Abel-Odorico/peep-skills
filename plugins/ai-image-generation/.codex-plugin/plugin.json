@@ -1,0 +1,26 @@
+{
+  "name": "ai-image-generation",
+  "version": "1.0.0",
+  "description": "Generate and edit AI images with inference.sh models through the belt CLI.",
+  "author": {
+    "name": "skills-shell",
+    "url": "https://github.com/skills-shell/skills"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AI Image Generation",
+    "shortDescription": "Generate and edit AI images with inference.sh models through the belt CLI.",
+    "longDescription": "Generate and edit AI images with inference.sh models through the belt CLI.",
+    "developerName": "skills-shell",
+    "category": "Creative",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use AI Image Generation neste projeto."
+    ]
+  },
+  "homepage": "https://github.com/skills-shell/skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills"
+}

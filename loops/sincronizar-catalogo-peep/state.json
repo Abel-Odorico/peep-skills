@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "loop": "sincronizar-catalogo-peep",
+  "status": "success",
+  "iteration": 4,
+  "max_iterations": 15,
+  "baseline": {
+    "plugins": 16,
+    "claude_marketplace": 10,
+    "codex_marketplace": 1,
+    "readme_installs": 16,
+    "readme_sections": 16,
+    "error_groups": 16
+  },
+  "last_check": {
+    "exit_code": 0,
+    "plugins": 16,
+    "claude_marketplace": 16,
+    "codex_marketplace": 16,
+    "readme_installs": 16,
+    "readme_sections": 16,
+    "errors": [],
+    "summary": "20 skills, 16 plugins, todos os JSONs, especificação do loop e diff validados"
+  },
+  "accepted_changes": [
+    "Adicionados 6 plugins ausentes ao marketplace Claude",
+    "Criados e validados 14 manifestos Codex ausentes",
+    "Adicionados 15 plugins ausentes ao marketplace Codex",
+    "Corrigidos 3 frontmatters incompatíveis com o validador Codex"
+  ],
+  "attempts": [
+    {
+      "iteration": 0,
+      "target": "linha de base",
+      "result": "34 divergências individuais agrupadas em 16 mensagens de erro"
+    },
+    {
+      "iteration": 1,
+      "target": "marketplace Claude",
+      "result": "contagem passou de 10 para 16; divergência removida"
+    },
+    {
+      "iteration": 2,
+      "target": "manifestos Codex",
+      "result": "14 manifestos criados; 16 de 16 plugins passaram no validate_plugin.py"
+    },
+    {
+      "iteration": 3,
+      "target": "marketplace Codex",
+      "result": "contagem passou de 1 para 16; check primário chegou a errors vazio"
+    },
+    {
+      "iteration": 4,
+      "target": "metadados de skills",
+      "result": "3 incompatibilidades corrigidas; todos os checks de regressão passaram"
+    }
+  ],
+  "terminal_reason": "sucesso: check primário retornou zero e todos os checks de regressão passaram"
+}

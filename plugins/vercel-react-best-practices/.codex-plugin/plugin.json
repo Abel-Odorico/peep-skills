@@ -1,0 +1,26 @@
+{
+  "name": "vercel-react-best-practices",
+  "version": "1.0.0",
+  "description": "React and Next.js performance optimization guidelines from Vercel Engineering.",
+  "author": {
+    "name": "Vercel",
+    "url": "https://github.com/vercel-labs/agent-skills"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Vercel React Best Practices",
+    "shortDescription": "React and Next.js performance optimization guidelines from Vercel Engineering.",
+    "longDescription": "React and Next.js performance optimization guidelines from Vercel Engineering.",
+    "developerName": "Vercel",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Vercel React Best Practices neste projeto."
+    ]
+  },
+  "homepage": "https://github.com/vercel-labs/agent-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills"
+}

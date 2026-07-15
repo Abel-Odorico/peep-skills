@@ -1,0 +1,4 @@
+interface:
+  display_name: "Forge Agent Loop"
+  short_description: "Projeta loops verificáveis e portáteis"
+  default_prompt: "Use $forge-agent-loop para criar um loop verificável e portátil para esta tarefa."

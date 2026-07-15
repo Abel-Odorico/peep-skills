@@ -1,0 +1,26 @@
+{
+  "name": "shadcn",
+  "version": "1.0.0",
+  "description": "Manage shadcn/ui components and projects: adding, searching, debugging, styling, and composing UI.",
+  "author": {
+    "name": "shadcn",
+    "url": "https://github.com/shadcn/ui"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Shadcn",
+    "shortDescription": "Manage shadcn/ui components and projects: adding, searching, debugging, styling, and composing…",
+    "longDescription": "Manage shadcn/ui components and projects: adding, searching, debugging, styling, and composing UI.",
+    "developerName": "shadcn",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Shadcn neste projeto."
+    ]
+  },
+  "homepage": "https://github.com/shadcn/ui",
+  "repository": "https://github.com/Abel-Odorico/peep-skills"
+}

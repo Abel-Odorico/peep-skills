@@ -1,0 +1,24 @@
+{
+  "name": "caveman",
+  "version": "1.0.0",
+  "description": "Ultra-compressed communication mode. Cuts ~75% of tokens while keeping full technical accuracy by speaking like a caveman.",
+  "author": {
+    "name": "Julius Brussee",
+    "url": "https://github.com/JuliusBrussee"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Caveman",
+    "shortDescription": "Ultra-compressed communication mode. Cuts ~75% of tokens while keeping full technical accuracy…",
+    "longDescription": "Ultra-compressed communication mode. Cuts ~75% of tokens while keeping full technical accuracy by speaking like a caveman.",
+    "developerName": "Julius Brussee",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Caveman neste projeto."
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "forge-agent-loop",
+  "description": "Projeta loops de agentes verificáveis, retomáveis e portáteis entre Codex, Claude Code e OpenCode.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Abel Odorico",
+    "url": "https://github.com/Abel-Odorico"
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills"
+}
