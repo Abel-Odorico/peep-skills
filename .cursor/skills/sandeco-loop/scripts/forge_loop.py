@@ -171,14 +171,20 @@ def state_template(name: str, max_iter: int) -> str:
 
 
 def adapter_skill(name: str, spec_rel: str, harness: str) -> str:
-    disable = "disable-model-invocation: true\n" if harness == "claude" else ""
+    # nota: "disable-model-invocation" é campo válido em comandos (.claude/commands/*.md),
+    # não em SKILL.md — o validador oficial de skills rejeita aqui. O adaptador impede
+    # auto-disparo só pela descrição ("Executa, só sob pedido explícito...") e pelo texto abaixo.
     return f"""---
-{disable}description: Executa, só sob pedido explícito, o loop {name} em {spec_rel}; valida, retoma state.json, para por sucesso/sem-progresso/bloqueio/esgotamento.
+name: loop-{name}
+description: Executa, só sob pedido explícito, o loop {name} em {spec_rel}; valida, retoma state.json, para por sucesso/sem-progresso/bloqueio/esgotamento.
 ---
 
 # Loop {name}
 
-1. Localizar e ler `{spec_rel}` na raiz do Git.
+NÃO executar automaticamente. Só rodar os passos abaixo quando o usuário pedir explicitamente
+(ex: "roda o loop {name}", "/loop-{name}"). Descrever a existência do loop não é pedido de execução.
+
+1. Localizar e ler `{spec_rel}` (relativo à raiz do Git em escopo project; caminho absoluto em escopo global).
 2. Validar a especificação.
 3. Carregar `state.json` ao lado, reconciliar com repositório.
 4. Executar uma volta por vez, persistindo evidência após cada check.
