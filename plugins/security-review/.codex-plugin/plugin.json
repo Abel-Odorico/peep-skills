@@ -1,0 +1,25 @@
+{
+  "name": "security-review",
+  "version": "1.0.0",
+  "description": "Scanner de segurança AI que raciocina como pesquisador: data flow, dependências, secrets, cripto e access control.",
+  "author": {
+    "name": "GitHub",
+    "url": "https://github.com/github/awesome-copilot"
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Security Review",
+    "shortDescription": "Scanner de segurança que raciocina como pesquisador humano.",
+    "longDescription": "Varre o código traçando fluxos de dados entre arquivos: injection (SQLi/XSS/command), autenticação e access control, secrets hardcoded, cripto fraca, dependências com CVE e lógica de negócio. Autoverifica achados, classifica CRITICAL–INFO e propõe patch para cada um — nada é aplicado sem aprovação.",
+    "developerName": "GitHub",
+    "category": "Security",
+    "capabilities": ["Interactive"],
+    "defaultPrompt": [
+      "Faça um security review completo deste projeto.",
+      "Verifique este arquivo contra SQL injection, XSS e secrets expostos.",
+      "Audite as dependências deste repo em busca de CVEs conhecidos."
+    ]
+  }
+}

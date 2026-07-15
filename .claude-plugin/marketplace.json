@@ -233,6 +233,21 @@
       "homepage": "https://github.com/Abel-Odorico/peep-skills"
     },
     {
+      "name": "security-review",
+      "description": "AI-powered security scanner that reasons like a researcher: data flow tracing, dependency CVEs, secrets, crypto and access control, with severity-rated findings and proposed patches.",
+      "author": {
+        "name": "GitHub"
+      },
+      "category": "security",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/security-review",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/github/awesome-copilot"
+    },
+    {
       "name": "web-push",
       "description": "Implement Web Push notifications with VAPID, subscription management, routing and service worker integration.",
       "author": {

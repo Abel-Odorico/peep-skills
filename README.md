@@ -31,6 +31,7 @@ claude plugin install vercel-react-best-practices@peep-skills
 claude plugin install shadcn@peep-skills
 claude plugin install forge-agent-loop@peep-skills
 claude plugin install sandeco-loop@peep-skills
+claude plugin install security-review@peep-skills
 ```
 
 ### Cursor
@@ -146,6 +147,20 @@ React and Next.js performance optimization guidelines from Vercel Engineering.
 Manage shadcn/ui components and projects: adding, searching, debugging, styling, and composing UI.
 
 > Originally by [shadcn](https://github.com/shadcn/ui).
+
+---
+
+### security-review
+
+AI-powered security scanner that reasons about the codebase like a human researcher — traces data flows across files, self-verifies findings to cut false positives, rates severity (CRITICAL→INFO) and proposes a patch for every finding. Nothing is auto-applied.
+
+**Workflow:** scope resolution → dependency audit (CVEs) → secrets & exposure scan → vulnerability deep scan (injection, auth/access control, data handling, crypto, business logic) → self-verification → report.
+
+**References:** language patterns (JS/TS, Python, Java, PHP, Go, Ruby, Rust), secret regex + entropy heuristics, vulnerable package watchlist, vuln categories, report format.
+
+> Originally by [GitHub](https://github.com/github/awesome-copilot) — awesome-copilot.
+
+**Commands:** `/security-review` · `/security-review <path>`
 
 ---
 
