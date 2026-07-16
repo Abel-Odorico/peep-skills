@@ -1,0 +1,25 @@
+{
+  "name": "mjolnir",
+  "version": "1.0.0",
+  "description": "Sistema Operacional de Contexto para agentes de código: carrega o contexto certo, não o máximo. Expansão progressiva, investigar em vez de buscar, compressão de saída e proteção de segredos.",
+  "author": {
+    "name": "Antonio Costa Lopes",
+    "url": "https://github.com/antoniocostalopes/mjolnir"
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Mjolnir",
+    "shortDescription": "Carrega o contexto certo, não o máximo — disciplina de orçamento de contexto para agentes.",
+    "longDescription": "Em vez de ler arquivos inteiros para ver uma função, o Mjolnir mapeia o repo barato (dna/index/graph), rankeia o que importa (score), puxa só assinaturas (symbols) ou um símbolo (slice), filtra a saída de testes/build no limite (filter_output) e para no instante em que a confiança é suficiente. Expansão em 4 níveis (estrutura → assinaturas → método único → arquivo inteiro), nunca pula nível. Investiga em vez de buscar: hipóteses, evidência, causa raiz. Toolkit em Python puro (stdlib, zero deps), autotestado (61 checks), que nunca carrega arquivos de credenciais e nunca comprime linha de erro ou código de segurança. ~68% menos tokens e 82% menos leituras de arquivo inteiro em tarefas amplas de compreensão.",
+    "developerName": "Antonio Costa Lopes",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive"],
+    "defaultPrompt": [
+      "Mapeie este subsistema sem ler os arquivos inteiros.",
+      "Entenda como a autenticação funciona neste repo gastando o mínimo de contexto.",
+      "Audite tudo deste tipo no codebase carregando só o necessário."
+    ]
+  }
+}

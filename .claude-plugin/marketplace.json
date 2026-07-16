@@ -276,6 +276,21 @@
         "ref": "main"
       },
       "homepage": "https://github.com/Abel-Odorico/peep-skills"
+    },
+    {
+      "name": "mjolnir",
+      "description": "Context Operating System for coding agents: loads the right context, not the maximum. Progressive expansion, investigate-don't-search, output compression and secret guard. Zero-dependency Python toolkit; ~68% fewer tokens on broad comprehension tasks.",
+      "author": {
+        "name": "Antonio Costa Lopes"
+      },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/mjolnir",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/antoniocostalopes/mjolnir"
     }
   ]
 }

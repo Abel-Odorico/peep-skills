@@ -33,6 +33,7 @@ claude plugin install forge-agent-loop@peep-skills
 claude plugin install sandeco-loop@peep-skills
 claude plugin install security-review@peep-skills
 claude plugin install security-hardening-loop@peep-skills
+claude plugin install mjolnir@peep-skills
 ```
 
 ### Cursor
@@ -240,3 +241,13 @@ Complete auth for FastAPI: JWT + bcrypt, forgot/reset password with email, rate 
 **Covers:** `OAuth2PasswordBearer`, `python-multipart` requirement, `ExpiredSignatureError` before `JWTError`, `_utcnow()` helper (Python 3.12+), antisnoop 202 forgot-password, RFC email headers for Gmail delivery, STARTTLS on 587, token delete-before-create race safety, bcrypt rounds in tests, Alembic + legacy DDL coexistence.
 
 **Commands:** `/fastapi-auth`
+
+---
+
+### mjolnir
+
+Context Operating System for coding agents: loads the *right* context, not the *maximum*. On broad "understand/map/audit" tasks it replaces read-everything with investigate-then-load — ~68% fewer tokens and 82% fewer whole-file reads reaching the same answer.
+
+**Covers:** 18-rule doctrine + investigate-don't-search mode; progressive expansion in 4 levels (structure → signatures → single method → whole file, never skip); zero-dependency Python toolkit (`dna`, `index`, `graph`, `symbols`, `slice`, `score`, `find`, `filter_output`, `verify`, `bench`, `harvest`); content-hash caching; output compression with recovery tee; secret guard that refuses credential files; self-tested (61 checks passing).
+
+**Commands:** `/mjolnir` (auto-triggers on large/unfamiliar repos and broad comprehension tasks).

@@ -1,0 +1,52 @@
+{
+  "_doc": "Declarative per-tool output filters for filter_output.py --cmd. Each filter: 'command' (regex vs the invoked command), optional 'shortcut' (success short-circuit: when 'if' hits and 'skip_if' does not, replace the whole output with 'emit'), 'strip' (regex lines removed), 'only' (allow-list regexes), 'cap' (line cap + overflow marker). First matching filter wins. Add a tool by adding a key — no code change.",
+  "filters": {
+    "git-status": {
+      "command": "\\bgit\\s+status\\b",
+      "shortcut": [
+        {"if": "nothing to commit, working tree clean", "emit": "ok — clean working tree"}
+      ],
+      "strip": ["^\\s*\\(use \"git"]
+    },
+    "git-commit": {
+      "command": "\\bgit\\s+commit\\b",
+      "shortcut": [
+        {"if": "\\b[0-9a-f]{7,}\\b", "skip_if": "error|rejected|fatal", "emit": "ok — committed"}
+      ]
+    },
+    "git-push": {
+      "command": "\\bgit\\s+push\\b",
+      "shortcut": [
+        {"if": "Everything up-to-date", "emit": "ok — up to date"},
+        {"if": "->", "skip_if": "error|rejected|fatal", "emit": "ok — pushed"}
+      ],
+      "strip": ["Enumerating objects|Counting objects|Compressing objects|Writing objects|Total \\d"]
+    },
+    "tests": {
+      "command": "\\b(jest|vitest|pytest|go\\s+test|cargo\\s+test|phpunit|pest|rspec)\\b",
+      "shortcut": [
+        {"if": "\\b(0 failed|0 failures|all tests passed)\\b", "skip_if": "\\b[1-9]\\d* (failed|failures|error)", "emit": "ok — all tests passed"}
+      ],
+      "strip": ["^\\s*(PASS|✓|✔|ok)\\b", "^\\s*$"]
+    },
+    "build": {
+      "command": "\\b(tsc|next\\s+build|webpack|vite\\s+build|cargo\\s+build|go\\s+build|mvn|gradle)\\b",
+      "strip": ["^\\s*(Compiling|Building|Bundling|info|warning: unused)"],
+      "cap": 60
+    },
+    "lint": {
+      "command": "\\b(eslint|biome|ruff|flake8|golangci-lint|clippy|prettier)\\b",
+      "shortcut": [
+        {"if": "^\\s*$", "skip_if": "error|warning|problem|✖", "emit": "ok — no lint issues"}
+      ],
+      "cap": 50
+    },
+    "install": {
+      "command": "\\b(npm|pnpm|yarn|pip|poetry|composer|bundle)\\s+(install|i|add|ci)\\b",
+      "shortcut": [
+        {"if": "\\b(added|installed|up to date|Successfully installed)\\b", "skip_if": "ERR|error|failed|conflict", "emit": "ok — dependencies installed"}
+      ],
+      "strip": ["^\\s*(npm warn|added \\d|Progress:|Downloading|Resolving)"]
+    }
+  }
+}
