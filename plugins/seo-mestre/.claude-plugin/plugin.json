@@ -1,0 +1,12 @@
+{
+  "name": "seo-mestre",
+  "description": "Auditoria e arquitetura SEO multiagente: SEO técnico, PageSpeed/Core Web Vitals, acessibilidade, AEO, GEO/AIO, crawlers de LLM, schema, SEO local, WordPress e conversão. Nota 0-100, plano 24h/7d/30d/90d. Framework original de Dante Testa.",
+  "version": "2.0.0",
+  "author": {
+    "name": "Dante Testa",
+    "url": "https://www.dantetesta.com.br"
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills"
+}

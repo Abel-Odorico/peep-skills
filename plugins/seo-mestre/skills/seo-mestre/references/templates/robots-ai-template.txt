@@ -1,0 +1,25 @@
+# robots.txt — SEO MESTRE
+# Estratégia seletiva: permite busca/recuperação por IA e bloqueia treinamento.
+
+User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+Sitemap: https://www.seusite.com.br/sitemap.xml

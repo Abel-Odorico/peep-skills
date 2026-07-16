@@ -291,6 +291,22 @@
         "ref": "main"
       },
       "homepage": "https://github.com/antoniocostalopes/mjolnir"
+    },
+    {
+      "name": "seo-mestre",
+      "description": "SEO audit and site architecture multi-agent framework: technical SEO, PageSpeed/Core Web Vitals, accessibility, AEO, GEO/AIO (AI citability), LLM crawlers, structured data, local SEO, WordPress and conversion. Scores 0-100 with a 24h/7d/30d/90d action plan.",
+      "author": {
+        "name": "Dante Testa",
+        "url": "https://www.dantetesta.com.br"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/seo-mestre",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/Abel-Odorico/peep-skills"
     }
   ]
 }
