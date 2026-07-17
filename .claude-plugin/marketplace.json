@@ -307,6 +307,21 @@
         "ref": "main"
       },
       "homepage": "https://github.com/Abel-Odorico/peep-skills"
+    },
+    {
+      "name": "archify",
+      "description": "Architecture, workflow, sequence, data-flow and lifecycle diagrams as self-contained HTML with SVG, theme toggle and PNG/JPEG/WebP/SVG export. Plain language or Mermaid in, validated JSON IR + zero-dep Node renderers.",
+      "author": {
+        "name": "tt-a1i"
+      },
+      "category": "design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/archify",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/tt-a1i/archify"
     }
   ]
 }

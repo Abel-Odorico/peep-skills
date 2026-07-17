@@ -1,0 +1,12 @@
+{
+  "name": "archify",
+  "description": "Generate professional architecture, workflow, sequence, data-flow, and lifecycle diagrams as self-contained HTML files with SVG, dark/light theme toggle, and PNG/JPEG/WebP/SVG export. Accepts plain-language descriptions or pasted Mermaid code. Typed JSON IR + schema validation + layout checks, zero runtime dependencies (Node >=18).",
+  "version": "2.11.0",
+  "author": {
+    "name": "tt-a1i",
+    "url": "https://github.com/tt-a1i/archify"
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills"
+}

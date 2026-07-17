@@ -34,6 +34,7 @@ claude plugin install sandeco-loop@peep-skills
 claude plugin install security-review@peep-skills
 claude plugin install security-hardening-loop@peep-skills
 claude plugin install mjolnir@peep-skills
+claude plugin install archify@peep-skills
 ```
 
 ### Cursor
@@ -251,3 +252,13 @@ Context Operating System for coding agents: loads the *right* context, not the *
 **Covers:** 18-rule doctrine + investigate-don't-search mode; progressive expansion in 4 levels (structure → signatures → single method → whole file, never skip); zero-dependency Python toolkit (`dna`, `index`, `graph`, `symbols`, `slice`, `score`, `find`, `filter_output`, `verify`, `bench`, `harvest`); content-hash caching; output compression with recovery tee; secret guard that refuses credential files; self-tested (61 checks passing).
 
 **Commands:** `/mjolnir` (auto-triggers on large/unfamiliar repos and broad comprehension tasks).
+
+### archify
+
+Professional technical diagrams (architecture, workflow, sequence, data-flow, lifecycle/state) as self-contained HTML files with inline SVG, persistent dark/light theme toggle, and one-click export to PNG (up to 4×) / JPEG / WebP / dual-theme SVG. Accepts plain-language descriptions or pasted Mermaid code (`flowchart`, `sequenceDiagram`, `stateDiagram`) and lays diagrams out from scratch in archify style.
+
+**Covers:** typed JSON IR per diagram type with JSON Schemas + standalone validators (no install needed); zero-dependency Node (>=18) renderers with layout checks (node/label overlap, arrow routing, legend bounds); `node bin/archify.mjs render|validate|check|doctor|demo` CLI; optional trace animation respecting `prefers-reduced-motion`; worked examples for all five modes.
+
+**Use nos fluxos Peep:** mapear arquitetura de um repo antes de mexer, desenhar fluxo de deploy, sequência de chamadas de API, pipelines de dados — o HTML gerado abre por `file://` e o SVG dual-theme cola direto em README.
+
+Based on [tt-a1i/archify](https://github.com/tt-a1i/archify) (MIT, rewrite of Cocoon-AI/architecture-diagram-generator).

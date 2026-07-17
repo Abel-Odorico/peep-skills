@@ -1,0 +1,25 @@
+{
+  "name": "archify",
+  "version": "2.11.0",
+  "description": "Gera diagramas profissionais de arquitetura, workflow, sequência, fluxo de dados e ciclo de vida como HTML self-contained com SVG, toggle dark/light e export PNG/JPEG/WebP/SVG. Aceita descrição em linguagem natural ou código Mermaid colado.",
+  "author": {
+    "name": "tt-a1i",
+    "url": "https://github.com/tt-a1i/archify"
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Archify",
+    "shortDescription": "Diagramas técnicos (arquitetura, workflow, sequência, dataflow, lifecycle) em HTML self-contained com export de imagem.",
+    "longDescription": "Pipeline tipado: o agente escreve um JSON IR (schema por tipo de diagrama), o validador checa schema e layout (overlaps, labels, arrows), e o renderer Node zero-dep gera HTML com SVG inline, toggle dark/light persistente e menu de export (PNG até 4x, JPEG, WebP, SVG dual-theme para READMEs). Cinco modos: architecture, workflow, sequence, dataflow, lifecycle. Converte Mermaid colado (flowchart, sequenceDiagram, stateDiagram) para o estilo archify. Ideal para documentar projetos da VPS: mapear arquitetura de um repo, desenhar fluxo de deploy, sequência de API, pipeline de dados.",
+    "developerName": "tt-a1i",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive"],
+    "defaultPrompt": [
+      "Use archify para mapear a arquitetura deste repositório.",
+      "Desenhe o fluxo de deploy deste projeto como diagrama workflow.",
+      "Converta este Mermaid num diagrama archify com export PNG."
+    ]
+  }
+}

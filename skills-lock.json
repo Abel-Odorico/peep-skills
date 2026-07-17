@@ -7,6 +7,12 @@
       "skillPath": "tools/image/ai-image-generation/SKILL.md",
       "computedHash": "8aec5218368ccd863f5281f3d27bf4a00b8e03e4f6dc805188063eeefb4b264a"
     },
+    "archify": {
+      "source": "tt-a1i/archify",
+      "sourceType": "github",
+      "skillPath": "archify/SKILL.md",
+      "computedHash": "453c292c0201c03cae2bf1e91c2e4fde1b104bb53b3bda255b4d0004fdd701aa"
+    },
     "caveman": {
       "source": "juliusbrussee/caveman",
       "sourceType": "github",
