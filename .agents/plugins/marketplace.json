@@ -243,6 +243,18 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer Tools"
+    },
+    {
+      "name": "scroll-world",
+      "source": {
+        "source": "local",
+        "path": "./plugins/scroll-world"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creative"
     }
   ]
 }

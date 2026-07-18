@@ -322,6 +322,21 @@
         "ref": "main"
       },
       "homepage": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "name": "scroll-world",
+      "description": "Build an immersive scroll-scrubbed 'fly through the world' landing page for any industry or brand using Higgsfield. Camera flies from outside each scene into its interior, then to the next, with no cuts — one continuous flight. Requires Higgsfield CLI (paid credits), ffmpeg/ffprobe and Python+Pillow.",
+      "author": {
+        "name": "cyw"
+      },
+      "category": "design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/scroll-world",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/oso95/scroll-world"
     }
   ]
 }

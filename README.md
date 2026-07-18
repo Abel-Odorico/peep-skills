@@ -35,6 +35,7 @@ claude plugin install security-review@peep-skills
 claude plugin install security-hardening-loop@peep-skills
 claude plugin install mjolnir@peep-skills
 claude plugin install archify@peep-skills
+claude plugin install scroll-world@peep-skills
 ```
 
 ### Cursor
@@ -262,3 +263,15 @@ Professional technical diagrams (architecture, workflow, sequence, data-flow, li
 **Use nos fluxos Peep:** mapear arquitetura de um repo antes de mexer, desenhar fluxo de deploy, sequência de chamadas de API, pipelines de dados — o HTML gerado abre por `file://` e o SVG dual-theme cola direto em README.
 
 Based on [tt-a1i/archify](https://github.com/tt-a1i/archify) (MIT, rewrite of Cocoon-AI/architecture-diagram-generator).
+
+### scroll-world
+
+Landing page com câmera cinematográfica guiada por scroll: mergulha de fora pra dentro de cada cena e voa pra próxima sem cortes — uma tomada contínua (estilo Emons/Apple product page). Entrevista tema, brand kit, direção de arte, roteiro de cenas, versão mobile (9:16 nativo) e orçamento (créditos estimados) antes de gerar qualquer coisa.
+
+**Covers:** pipeline Higgsfield completo (stills → clipes "dive-in" → conectores costurados frame-a-frame pra emenda invisível); modelos com frame-lock (`seedance_2_0`, `seedance_2_0_mini`, `kling3_0`); scrub engine vanilla JS portátil (blob-seek, lazy load, crossfade de emenda, hardening mobile: iOS priming, safe-area, seek-coalescing); knockout de fundo pra cenas flutuantes.
+
+**Requer:** Higgsfield CLI autenticada com créditos, `ffmpeg`/`ffprobe`, Python 3 + Pillow. Codex CLI opcional (gera os stills sem gastar créditos Higgsfield, cobrado na assinatura ChatGPT).
+
+**⚠️ Custo:** não é gratuita — cada build gasta créditos Higgsfield (N stills + (2N-1) vídeos, dobra se mobile). A skill calibra custo real antes de gerar e pede aprovação.
+
+Based on [oso95/scroll-world](https://github.com/oso95/scroll-world) (MIT).

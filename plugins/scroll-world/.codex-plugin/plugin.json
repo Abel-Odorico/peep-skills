@@ -1,0 +1,23 @@
+{
+  "name": "scroll-world",
+  "version": "0.3.0",
+  "description": "Build an immersive scroll-scrubbed 'fly through the world' landing page using Higgsfield. Camera flies from outside each scene into its interior, then on to the next, with no cuts.",
+  "author": {
+    "name": "cyw",
+    "url": "https://github.com/oso95/scroll-world"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Scroll World",
+    "shortDescription": "Landing page com câmera cinematográfica guiada por scroll, gerada via Higgsfield.",
+    "longDescription": "Constrói uma landing page onde o scroll comanda uma câmera: mergulha de fora pra dentro de cada cena e segue pra próxima sem cortes, um voo contínuo. Entrevista o usuário sobre tema, brand kit e roteiro de cenas, gera as cenas e clipes de câmera via Higgsfield (Seedance/Kling) com costura frame-a-frame, e entrega um scrub engine vanilla JS portátil (funciona em qualquer stack). Exige Higgsfield CLI autenticada com créditos, ffmpeg/ffprobe e Python+Pillow.",
+    "developerName": "cyw",
+    "category": "Creative",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "Crie uma landing page scroll-through pro meu negócio usando Higgsfield."
+    ]
+  },
+  "homepage": "https://github.com/Abel-Odorico/peep-skills",
+  "repository": "https://github.com/Abel-Odorico/peep-skills"
+}
