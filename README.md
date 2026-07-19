@@ -275,3 +275,23 @@ Landing page com câmera cinematográfica guiada por scroll: mergulha de fora pr
 **⚠️ Custo:** não é gratuita — cada build gasta créditos Higgsfield (N stills + (2N-1) vídeos, dobra se mobile). A skill calibra custo real antes de gerar e pede aprovação.
 
 Based on [oso95/scroll-world](https://github.com/oso95/scroll-world) (MIT).
+
+---
+
+## Ferramentas externas (não incluídas neste repo)
+
+### Mira (mira-animator)
+
+Agentes e templates para criar apresentações HTML animadas com D3.js. **Não é um plugin deste repositório** — é um pacote npm de terceiro, [`mira-animator`](https://github.com/sandeco/mira-animator) por [sandeco](https://github.com/sandeco), licenciado sob **PolyForm-Noncommercial-1.0.0**. Por causa dessa licença o código/templates do Mira não são redistribuídos aqui.
+
+**Instalação (no projeto onde você quer gerar slides):**
+
+```bash
+npx mira-animator@latest install
+```
+
+O instalador cria as skills (`mira-new`, `mira-planner`, `mira-builder`, `mira-animator` etc.), a pasta `mira-templates/` (themes, engines, vendor) e `mira.config.json` na raiz do projeto. Funciona em Claude Code, Codex e OpenCode; Cursor lê as skills instaladas em `.cursor/skills/` automaticamente.
+
+Pipeline típico: `/mira-new` → `/mira-extract` → `/mira-planner` → `/mira-copywriter` → `/mira-builder` + `/mira-animator` → `/mira-validator`.
+
+**Uso comercial:** a licença PolyForm-Noncommercial proíbe uso comercial do pacote. Confirme com o autor (sandecom@gmail.com) ou avalie uma licença comercial antes de usar em contexto de negócio.
