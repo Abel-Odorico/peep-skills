@@ -1,0 +1,22 @@
+{
+  "name": "watch",
+  "version": "0.2.0",
+  "description": "Watch video URLs or local files using captions, scene-aware frames and optional Whisper transcription.",
+  "author": {
+    "name": "Bradley Bonanno",
+    "url": "https://github.com/bradautomates"
+  },
+  "homepage": "https://github.com/bradautomates/claude-video",
+  "repository": "https://github.com/bradautomates/claude-video",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Watch",
+    "shortDescription": "Analyze video with frames and transcripts",
+    "longDescription": "Analyze video URLs and local recordings from their visual frames and timestamped transcript.",
+    "developerName": "Bradley Bonanno",
+    "category": "Creative",
+    "capabilities": ["Interactive", "Read"],
+    "defaultPrompt": ["Use Watch to analyze this video."]
+  }
+}

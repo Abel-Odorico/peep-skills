@@ -1,0 +1,13 @@
+{
+  "name": "graphify",
+  "version": "0.9.20",
+  "description": "Turn code, schemas, infrastructure and documents into a persistent, queryable knowledge graph.",
+  "author": {
+    "name": "Graphify Labs",
+    "url": "https://github.com/Graphify-Labs"
+  },
+  "homepage": "https://github.com/Graphify-Labs/graphify",
+  "repository": "https://github.com/Graphify-Labs/graphify",
+  "license": "MIT",
+  "skills": "./variants/claude/"
+}

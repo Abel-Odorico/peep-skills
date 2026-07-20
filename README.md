@@ -36,6 +36,13 @@ claude plugin install security-hardening-loop@peep-skills
 claude plugin install mjolnir@peep-skills
 claude plugin install archify@peep-skills
 claude plugin install scroll-world@peep-skills
+claude plugin install seo-mestre@peep-skills
+claude plugin install watch@peep-skills
+claude plugin install notebooklm@peep-skills
+claude plugin install graphify@peep-skills
+claude plugin install obsidian@peep-skills
+claude plugin install impeccable@peep-skills
+claude plugin install ponytail@peep-skills
 ```
 
 ### Cursor
@@ -47,6 +54,21 @@ Clone or open this repository in Cursor and the skills are available as project 
 ```text
 .cursor/skills/<skill-name>/SKILL.md
 ```
+
+### Instalação local multi-harness
+
+O instalador expõe cada skill por link simbólico para Claude Code, Codex,
+OpenCode e o diretório genérico Agent Skills, escolhendo automaticamente as
+variantes específicas de cada modelo:
+
+```bash
+python3 scripts/install-local-skills.py \
+  --plugin watch --plugin notebooklm --plugin graphify \
+  --plugin obsidian --plugin impeccable --plugin ponytail
+```
+
+Os runtimes Python opcionais e fixados por commit podem ser instalados em
+ambientes virtuais isolados com `scripts/install-runtime-tools.sh`.
 
 ## Plugins
 
@@ -275,6 +297,61 @@ Landing page com câmera cinematográfica guiada por scroll: mergulha de fora pr
 **⚠️ Custo:** não é gratuita — cada build gasta créditos Higgsfield (N stills + (2N-1) vídeos, dobra se mobile). A skill calibra custo real antes de gerar e pede aprovação.
 
 Based on [oso95/scroll-world](https://github.com/oso95/scroll-world) (MIT).
+
+### seo-mestre
+
+Auditoria e arquitetura SEO em português, com SEO técnico, Core Web Vitals,
+acessibilidade, AEO/GEO/AIO, dados estruturados, SEO local e conversão.
+
+> Framework original de [Dante Testa](https://www.dantetesta.com.br), adaptado para o catálogo Peep.
+
+### watch
+
+Analisa vídeos por URL ou arquivo local combinando legendas, transcrição
+opcional por Whisper e frames extraídos com `ffmpeg`. Requer `yt-dlp` e
+`ffmpeg`; chaves Groq/OpenAI só são necessárias quando não há legendas.
+
+> Original: [bradautomates/claude-video](https://github.com/bradautomates/claude-video) — MIT.
+
+### notebooklm
+
+Automatiza notebooks, fontes, perguntas fundamentadas, pesquisa e geração de
+artefatos no Google NotebookLM. O CLI é instalado separadamente e a conta
+Google precisa ser autenticada pelo usuário com `notebooklm login`.
+
+> Original: [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) — MIT.
+
+### graphify
+
+Transforma código, schemas, infraestrutura e documentação em um grafo de
+conhecimento persistente. Inclui variantes próprias para Claude, Codex,
+OpenCode e Agent Skills; a análise estrutural de código funciona localmente.
+
+> Original: [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — MIT.
+
+### obsidian
+
+Pacote com cinco skills: `obsidian-markdown`, `obsidian-bases`, `json-canvas`,
+`obsidian-cli` e `defuddle`. Cobre formatos abertos do Obsidian e extração de
+conteúdo limpo da web; os comandos nativos exigem Obsidian com CLI habilitado.
+
+> Original: [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) — MIT.
+
+### impeccable
+
+Sistema de design para construir, criticar, polir e endurecer interfaces
+frontend, com referências de UX, acessibilidade, responsividade, motion e
+detecção de anti-padrões. O catálogo preserva variantes específicas por modelo.
+
+> Original: [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — Apache-2.0.
+
+### ponytail
+
+Modo de engenharia minimalista orientado por YAGNI, biblioteca padrão e menor
+diff correto. Inclui as skills `ponytail`, `ponytail-review`, `ponytail-audit`,
+`ponytail-debt`, `ponytail-gain` e `ponytail-help`.
+
+> Original: [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) — MIT.
 
 ---
 

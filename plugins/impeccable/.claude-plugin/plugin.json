@@ -1,0 +1,13 @@
+{
+  "name": "impeccable",
+  "version": "3.9.1",
+  "description": "Design fluency for frontend implementation, critique, polish, accessibility and anti-pattern detection.",
+  "author": {
+    "name": "Paul Bakaus",
+    "url": "https://github.com/pbakaus"
+  },
+  "homepage": "https://impeccable.style",
+  "repository": "https://github.com/pbakaus/impeccable",
+  "license": "Apache-2.0",
+  "skills": "./variants/claude/"
+}

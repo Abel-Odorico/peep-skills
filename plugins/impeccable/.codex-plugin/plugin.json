@@ -1,0 +1,22 @@
+{
+  "name": "impeccable",
+  "version": "3.9.1",
+  "description": "Design fluency for frontend implementation, critique, polish, accessibility and anti-pattern detection.",
+  "author": {
+    "name": "Paul Bakaus",
+    "url": "https://github.com/pbakaus"
+  },
+  "homepage": "https://impeccable.style",
+  "repository": "https://github.com/pbakaus/impeccable",
+  "license": "Apache-2.0",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Impeccable",
+    "shortDescription": "Craft production-grade frontend design",
+    "longDescription": "Design, critique, polish and harden frontend interfaces with strong visual hierarchy, UX and accessibility.",
+    "developerName": "Paul Bakaus",
+    "category": "Creative",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": ["Use Impeccable to polish this interface."]
+  }
+}

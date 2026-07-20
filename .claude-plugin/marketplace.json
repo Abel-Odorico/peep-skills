@@ -337,6 +337,96 @@
         "ref": "main"
       },
       "homepage": "https://github.com/oso95/scroll-world"
+    },
+    {
+      "name": "watch",
+      "description": "Watch video URLs or local files using captions, scene-aware frames and optional Whisper transcription.",
+      "author": {
+        "name": "Bradley Bonanno"
+      },
+      "category": "creative",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/watch",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/bradautomates/claude-video"
+    },
+    {
+      "name": "notebooklm",
+      "description": "Automate Google NotebookLM research, grounded chat, source management and artifact generation through its CLI.",
+      "author": {
+        "name": "Teng Lin"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/notebooklm",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/teng-lin/notebooklm-py"
+    },
+    {
+      "name": "graphify",
+      "description": "Turn code, schemas, infrastructure and documents into a persistent, queryable knowledge graph.",
+      "author": {
+        "name": "Graphify Labs"
+      },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/graphify",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/Graphify-Labs/graphify"
+    },
+    {
+      "name": "obsidian",
+      "description": "Create and edit Obsidian Markdown, Bases, JSON Canvas files and clean web content for vaults.",
+      "author": {
+        "name": "Steph Ango"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/obsidian",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/kepano/obsidian-skills"
+    },
+    {
+      "name": "impeccable",
+      "description": "Design fluency for frontend implementation, critique, polish, accessibility and anti-pattern detection.",
+      "author": {
+        "name": "Paul Bakaus"
+      },
+      "category": "design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/impeccable",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "name": "ponytail",
+      "description": "Lazy senior developer mode: YAGNI, standard library first, minimal correct code and over-engineering reviews.",
+      "author": {
+        "name": "Dietrich Gebert"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Abel-Odorico/peep-skills.git",
+        "path": "plugins/ponytail",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/DietrichGebert/ponytail"
     }
   ]
 }

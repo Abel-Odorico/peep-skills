@@ -1,0 +1,22 @@
+{
+  "name": "notebooklm",
+  "version": "0.8.0-rc.1",
+  "description": "Automate Google NotebookLM research, grounded chat, source management and artifact generation through its CLI.",
+  "author": {
+    "name": "Teng Lin",
+    "url": "https://github.com/teng-lin"
+  },
+  "homepage": "https://github.com/teng-lin/notebooklm-py",
+  "repository": "https://github.com/teng-lin/notebooklm-py",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "NotebookLM",
+    "shortDescription": "Automate grounded NotebookLM research",
+    "longDescription": "Drive NotebookLM notebooks, sources, grounded questions, research and generated artifacts from an agent.",
+    "developerName": "Teng Lin",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": ["Use NotebookLM to research these sources."]
+  }
+}

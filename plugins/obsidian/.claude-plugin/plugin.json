@@ -1,0 +1,13 @@
+{
+  "name": "obsidian",
+  "version": "1.0.1",
+  "description": "Create and edit Obsidian Markdown, Bases, JSON Canvas files and clean web content for vaults.",
+  "author": {
+    "name": "Steph Ango",
+    "url": "https://stephango.com/"
+  },
+  "homepage": "https://github.com/kepano/obsidian-skills",
+  "repository": "https://github.com/kepano/obsidian-skills",
+  "license": "MIT",
+  "skills": "./skills/"
+}
